@@ -1,0 +1,7 @@
+digraph {
+  rankdir = LR; // Tells dot to draw the graph left-to-right
+                // (default is top-to-bottom, it's no good here)
+  a [label = "cats"];
+  b [label = "mice"];
+  a -> b [label = "eat"]; // A sad fact of life
+}
